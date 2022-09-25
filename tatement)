@@ -1,0 +1,18 @@
+[1mNAME[0m
+    test_hello.py
+
+[1mSYNOPSIS[0m
+    test_hello.py [4mGROUP[0m | [4mCOMMAND[0m
+
+[1mGROUPS[0m
+    [1m[4mGROUP[0m[0m is one of the following:
+
+     fire
+       The Python Fire module.
+
+[1mCOMMANDS[0m
+    [1m[4mCOMMAND[0m[0m is one of the following:
+
+     greetings
+
+     goodbyes

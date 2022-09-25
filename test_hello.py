@@ -1,12 +1,18 @@
-def greetings():
-
-    return print("hello, minions")
+import fire
 
 
-def main():
-    greetings()
+def greetings(name="name"):
+    """say hello to someone by name"""
+
+    return print(f"hello, {name}")
+
+
+def goodbyes(statement="Goodbye!!!"):
+    """Say bye"""
+
+    return print(statement)
 
 
 if __name__ == "__main__":
     # pylint: disable=no-value-for-parameter
-    main()
+    fire.Fire()
