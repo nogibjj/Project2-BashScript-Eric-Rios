@@ -1,8 +1,6 @@
 def greetings():
 
-    return print('hello, minions')
-
-
+    return print("hello, minions")
 
 
 def main():
