@@ -25,8 +25,6 @@ def freq_builder(sentence, n, corpus):
 
             i += 1
 
-            pass
-
         else:
 
             token_match = corpus[i : i + n]
@@ -128,6 +126,3 @@ def finish_sentence(sentence, n, corpus, deterministic=False):
             final_sentence.append(new_token)
 
     return final_sentence
-
-
-
