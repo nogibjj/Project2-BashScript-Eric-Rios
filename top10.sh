@@ -2,11 +2,11 @@
 
 # This script will leave only the title of the game, the publisher, and the global sums for the top 10 entries.
 
-path="/workspaces/Trending-Youtube-Videos-Data-Engineering-Project-Eric-Rios/Video_Games_Sales_2016.csv" # Path to the dataset
+path="Video_Games_Sales_2016.csv" # Path to the dataset
 
-# This function will print the top 10 entries in the dataset
+# This script will print the top 10 entries in the dataset
 echo $path
-echo "Top 10 entries in the dataset by global sales"
+echo "Top 10 entries in the dataset sorted by global sales"
 
 head -n 1 $path | cut -d ',' -f 1-5,10 > top10.csv
 
